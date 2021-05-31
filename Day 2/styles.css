@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 30px 30px;
+  background: linear-gradient(to right,#7F00FF, #E100FF);
+  color: white;
+}
+#main {
+  line-height: 1.5rem;
+}
+
+#main h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#main p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
