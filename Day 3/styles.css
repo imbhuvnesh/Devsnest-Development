@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    margin: 200px 100px;
+    /* /* width: 70%; */
+    border: 2px teal solid; 
+    display: flex;
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 50px 40px 0px ;
+    justify-content: center;
+    line-height: 15px;
+    justify-content: center;
+}
+
+#one{
+    position: relative;
+    left: -150px;
+    border-right: 2px teal solid;
+    padding-right: 50px;
+
+}
+
+#two{
+    padding-left: 30px;
+}
+
+.content{
+    text-align:justify;
+}
+
+
+
+#name{
+    display: block;
+    position: relative;
+    left: 400px;
+    top: -70px;
+}
+
+#name span{
+    background-color: white;
+    padding: 0px 8px 0px 8px;
+}
