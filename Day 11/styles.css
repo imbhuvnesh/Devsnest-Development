@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(65, 121, 173);
+    background-color: #228c22;
     color: white;
     font-family: 'Righteous', cursive;
 }
@@ -14,6 +14,7 @@ body{
 #main{
     display: flex;
     flex-direction: column;
+    padding: 30px 30px;
     margin-top: 50px;
     align-items: center;   
 }
@@ -22,4 +23,8 @@ body{
     margin-top: 30px;
     font-size: 22px;
     cursor: pointer;
+    background-color: #1faa1f;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
 }

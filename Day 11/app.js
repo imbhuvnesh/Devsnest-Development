@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ans: ["Rukia", "Renji", "Kon", "Jinta"],
     },
     {
-      question: "Who Possess the founding titan in Attack on Titan",
+      question: "Who Possess the founding titan in Attack on Titan?",
       correct_answer: "Eren Yeager",
       ans: ["Eren Yeager", "Mikasa", "Levi", "Kenny Ackerman"],
     },
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       question:
-        "The name of the attack &quot;Kamehameha&quot; in D…n Ball Z was named after a famous king of Hawaii.",
+        "The name of the attack &quot;Kamehameha&quot; in D…n Ball Z was named after a famous king of Hawaii.?",
       correct_answer: "True",
       ans: ["True", "False"],
     },
@@ -69,10 +69,10 @@ document.addEventListener("DOMContentLoaded", () => {
         gif.style.margin = "30px 20px";
       if (count > 3) {
           gif.setAttribute("src", "./mightguy.gif");
-          res.textContent = "That's what youth is all about! Power of youth!"
+          res.textContent = "Power of youth!"
       } else {
           gif.setAttribute("src", "./mightguy2.gif");
-          res.textContent = "You can do better Lee! Don't let you spring time of youth fade away!"
+          res.textContent = "You can do better Lee! Don't let your spring time of youth fade away!"
       }
         document.getElementById('main').appendChild(gif);
         document.getElementById('main').appendChild(res);
