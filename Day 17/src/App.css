@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.App {
+  font-family: "Open Sans", sans-serif;
+  background-color: #673ab7;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  background-color: #673ab7;
+  height: 500px;
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+  overflow-y: scroll;
+}
+
+.food-card {
+  text-align: center;
+  margin: 5px 5px 50px 5px;
+  background-color: #9575cd;
+  padding: 10px 5px 10px 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: -2px 0px 24px -9px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -2px 0px 24px -9px rgba(255, 255, 255, 1);
+  box-shadow: -2px 0px 24px -15px rgba(255, 255, 255, 1);
+}
+
+.main::-webkit-scrollbar {
+  width: 1em;
+}
