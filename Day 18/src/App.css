@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.App{
+  display: flex;
+  justify-content: center;
+}
+
+.Board {
+  display: flex;
+  height: 500px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 500px;
+  -webkit-box-shadow: -15px 7px 29px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -15px 7px 29px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: -15px 7px 29px -6px rgba(0, 0, 0, 0.75);
+}
+
+.Box {
+  height: 62px;
+  width: 62px;
+  margin: 0;
+  padding: 0;
+}
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
+}
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.row:nth-child(odd) .Box:nth-child(odd) {
+  background-color: black;
+}
+
+.row:nth-child(even) .Box:nth-child(even) {
+  background-color: black;
+}
