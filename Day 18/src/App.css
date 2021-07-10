@@ -29,15 +29,4 @@
   background-color: white;
 }
 
-.row {
-  display: -webkit-flex;
-  display: flex;
-}
 
-.row:nth-child(odd) .Box:nth-child(odd) {
-  background-color: black;
-}
-
-.row:nth-child(even) .Box:nth-child(even) {
-  background-color: black;
-}

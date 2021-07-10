@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+
+
+
+.App{
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: center;
+}
+
+
+.btn{
+  text-align: center;
+  font-weight: bolder;
+  cursor: pointer;
+  width: 30px;
+  padding: 10px 5px 10px 5px;
+  margin: 0px 10px 0px 0px;
+  color: white;
+  background-color: #ef5350;
+  border-radius: 5px;
+}
