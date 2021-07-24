@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 
-Deployed at - https://trusting-shirley-4f30dd.netlify.app/
+Deployed at - https://calorie-notes.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
