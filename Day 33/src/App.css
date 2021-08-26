@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(82, 241, 241);
+  color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 29px;
+  right: 90vw;
+  background-color: rgb(43, 43, 43);
+  color: rgb(150, 248, 248);
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+.theme-toggle.dark {
+  background-color: rgb(50, 75, 75);
+  color: rgb(17, 17, 17);
+}
+
+.todos {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+.todos.dark {
+  background-color: rgb(130, 41, 214);
+  color: azure;
+}
